@@ -86,9 +86,13 @@ right = [2, 3, 10]
 
 print(merge(left, right))
 
+# 复杂度对比
 
-
-
+# 排序算法	          最好情况	           平均情况	          最坏情况
+# Monkey Sort	         -	                 O(n!)	           O(n!)
+# Bubble Sort	         O(n)	             O(n²)	           O(n²)
+# Selection Sort	     O(n²)	             O(n²)	           O(n²)
+# Merge Sort	         O(n log n)	         O(n log n)	       O(n log n)
 
 
 
